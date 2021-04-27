@@ -1,0 +1,31 @@
+Package: ODWGviz
+Title: Outlier Detection Visualization
+Version: 0.1.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Koohafkan",
+           role = c("aut", "cre"),
+           email = "michael.koohafkan@gmail.com")
+Description: An R package for visualizing outlier detection routines
+    provided by the ODWGtools package.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    stats,
+    utils,
+    ODWGtools (>= 0.6),
+    ggplot2 (>= 3.3),
+    readr (>= 1.4),
+    purrr (>= 0.3),
+    plotly (>= 4.9),
+    shiny (>= 1.5)
+Remotes:
+    mkoohafkan/ODWGtools-clone
+Collate: 
+    'ODWGviz.r'
+    'ui.r'
+    'server.r'
+    'app.r'
